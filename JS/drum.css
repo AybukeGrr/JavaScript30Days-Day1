@@ -1,0 +1,58 @@
+
+
+html {
+    font-size: 10px;
+    background:  url("image/pexels-photo-995301.jpeg") bottom center;
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: 15px solid black;
+    border-radius: .115px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .09s ;
+    width: 1450px;
+    height:145px;
+    -moz-border-radius:60px ;
+    -webkit-border-radius:60px ;
+    text-align: center;
+    color: rgb(151, 140, 140);
+    background: rgba(0,0,0,0.4);
+    text-shadow: 5px 5px 5px black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 8rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+
+  
